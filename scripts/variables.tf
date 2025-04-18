@@ -11,3 +11,8 @@ variable "container_name" {
 
 }
 
+variable "volume_name" {
+  type    = string
+  default = "volume"
+
+}
